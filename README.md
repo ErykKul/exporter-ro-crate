@@ -32,4 +32,4 @@ wget -O rocrate.jar https://repo1.maven.org/maven2/io/github/erykkul/dataverse-t
 
 After restarting the Dataverse, you should be able to use the newly installed RO-Crate exporter:
 
-
+![image](https://github.com/ErykKul/exporter-ro-crate/assets/101262459/27203e12-5a38-45cb-bf7f-eaa76d5c432a)

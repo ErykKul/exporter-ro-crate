@@ -20,8 +20,8 @@ mkdir rocrate
 Download the [config.json](/config.json) and the [transformer.json](/transformer.json) files into that new directory:
 
 ```shell
-wget -O rocrate/config.json https://raw.githubusercontent.com/gdcc/exporter-ro-crate/main/config.json
-wget -O rocrate/transformer.json https://raw.githubusercontent.com/gdcc/exporter-ro-crate/main/transformer.json
+wget -O rocrate/config.json https://raw.githubusercontent.com/erykkul/exporter-ro-crate/main/config.json
+wget -O rocrate/transformer.json https://raw.githubusercontent.com/erykkul/exporter-ro-crate/main/transformer.json
 ```
 
 Download the [dataverse-transformer-exporter](https://github.com/ErykKul/dataverse-transformer-exporter/) jar file from the [Maven Central repository](https://central.sonatype.com/artifact/io.github.erykkul/dataverse-transformer-exporter/versions) and save it under the same name (`rocrate.jar`) as the newly created directory (`rocrate`):

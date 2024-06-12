@@ -7,7 +7,7 @@ This exporter produces JSON-LD objects similar to this [example](https://rawcdn.
 
 The configuration for this exporter can be found in the [config.json](/config.json) file. You can edit that file to change the display name of this exporter, media type, etc. See also the documentation of the [dataverse-transformer-exporter](https://github.com/ErykKul/dataverse-transformer-exporter/) for more details on the configuration file and the internal workings of this exporter, like available for transformations metadata, used JavaScript files, etc.
 
-If you wish to edit the transformations of this exporter or make a new exporter, similar to this one, see the documentation of the [json-transformer](https://github.com/erykKul/json-transformer) library, as used by the [dataverse-transformer-exporter](https://github.com/ErykKul/dataverse-transformer-exporter/).
+If you wish to edit the transformations of this exporter or make a new exporter, similar to this one, see the documentation of the [json-transformer](https://github.com/erykKul/json-transformer) library, as used by the [dataverse-transformer-exporter](https://github.com/ErykKul/dataverse-transformer-exporter/). Note that there can be only one [dataverse-transformer-exporter](https://github.com/ErykKul/dataverse-transformer-exporter/) running at the same time for a given installation, this might change in the future releases. If you wish to have multiple transformers exporters running on the same installation, you would need to fork from [dataverse-transformer-exporter](https://github.com/ErykKul/dataverse-transformer-exporter/) and use a different name for the `TransformerExporter` class.
 
 ## Installation
 
